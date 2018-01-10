@@ -7,4 +7,71 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+/* HEADER SECTION */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  z-index: 10;
+  align-items: center;
+  height: 69px;
+  top: 0;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+  flex-flow: 1;
+}
+
+/* MISSION  SECTION */
+
+.mission-image {
+  display: flex;
+  flex-direction: column;
+  background-image:
+    url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+}
+
+.mission-image div {
+  background-color: black
+}
+
+/* TEA SECTION */
+
+.tea-options img {
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+}
+
+.tea-options h4 {
+  margin-top: 0;
+}
+
+.first-three {
+  display: flex;
+  justify-content: center;
+}
+
+.last-two {
+  display: flex;
+  justify-content: center;
 }
