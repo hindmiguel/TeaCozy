@@ -75,3 +75,27 @@ header {
   display: flex;
   justify-content: center;
 }
+
+/* LOCATION SECTION */
+
+.location-image {
+  background-image:
+    url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.locations {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.locations div {
+  width: 300px;
+  background-color: black;
+  margin: 20px
+}
