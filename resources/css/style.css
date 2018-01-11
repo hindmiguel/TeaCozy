@@ -21,7 +21,7 @@ nav span {
 header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid seashell;
+  border-bottom: 1px solid maroon;
   width: 100%;
   position: fixed;
   background-color: black;
@@ -55,6 +55,7 @@ header {
 }
 
 /* TEA SECTION */
+
 
 .tea-options img {
   width: 300px;
