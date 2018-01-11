@@ -3,7 +3,7 @@
 body {
   font-family: Helvetica;
   font-size: 22px;
-  color: seashell;
+  color: slategrey;
   background-color: black;
   opacity: 0.9;
   text-align: center;
@@ -51,7 +51,7 @@ header {
 }
 
 .mission-image div {
-  background-color: black
+  background-color: black;
 }
 
 /* TEA SECTION */
@@ -86,6 +86,11 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0 auto 0 auto;
+}
+
+.location-image h2 {
+  margin-bottom: 0;
 }
 
 .locations {
@@ -97,5 +102,17 @@ header {
 .locations div {
   width: 300px;
   background-color: black;
-  margin: 20px
+  margin: 15px 20px;
+  opacity: 1;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
 }
